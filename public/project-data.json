@@ -1,0 +1,109 @@
+{
+  "title": "Event Registration System",
+  "projectLink": "https://example.com/event-registration-system",
+  "images": [
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Event Registration System Dashboard"
+    },
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Mobile App Interface"
+    },
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Payment Gateway Integration"
+    }
+  ],
+  "overview": {
+    "description": "A scalable Event Registration System for large-scale events",
+    "details": "Developed a high-performance Event Registration System capable of handling 20,000+ concurrent users. The system integrates multiple payment gateways, third-party APIs, and implements real-time notifications for a seamless user experience."
+  },
+  "features": [
+    "Scalable architecture handling 20,000+ concurrent users",
+    "Integration with multiple payment gateways (Razorpay, PayU, CCAvenue)",
+    "Third-party API integration (Zoho, Mobile App APIs)",
+    "Real-time attendee data synchronization",
+    "QR code generation for mobile platforms",
+    "Personalized schedules on mobile platforms",
+    "Optimized system architecture for low latency and high throughput",
+    "Real-time notifications via email and SMS"
+  ],
+  "technologies": [
+    {
+      "category": "Backend",
+      "items": [
+        {
+          "name": "PHP (Laravel)",
+          "logo": "/placeholder.svg?height=64&width=64&text=Laravel"
+        }
+      ]
+    },
+    {
+      "category": "Database",
+      "items": [
+        {
+          "name": "MySQL",
+          "logo": "/placeholder.svg?height=64&width=64&text=MySQL"
+        }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        {
+          "name": "HTML",
+          "logo": "/placeholder.svg?height=64&width=64&text=HTML"
+        },
+        {
+          "name": "CSS",
+          "logo": "/placeholder.svg?height=64&width=64&text=CSS"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "/placeholder.svg?height=64&width=64&text=JS"
+        },
+        {
+          "name": "React"
+        },
+        {
+          "name": "Next.js"
+        }
+      ]
+    },
+    {
+      "category": "Cloud",
+      "items": [
+        {
+          "name": "AWS",
+          "logo": "/placeholder.svg?height=64&width=64&text=AWS"
+        }
+      ]
+    },
+    {
+      "category": "APIs",
+      "items": [
+        {
+          "name": "Zoho",
+          "logo": "/placeholder.svg?height=64&width=64&text=Zoho"
+        },
+        {
+          "name": "Razorpay",
+          "logo": "/placeholder.svg?height=64&width=64&text=Razorpay"
+        },
+        {
+          "name": "Mobile App APIs"
+        },
+        {
+          "name": "Badge Printing APIs"
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    { "name": "Concurrent Users", "value": 20000, "max": 25000 },
+    { "name": "Latency (ms)", "value": 50, "max": 200 },
+    { "name": "Throughput (req/s)", "value": 5000, "max": 6000 }
+  ]
+}
+
