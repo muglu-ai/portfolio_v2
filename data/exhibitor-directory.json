@@ -4,16 +4,12 @@
   "projectLink": "https://example.com/exhibitor-directory",
   "images": [
     {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Exhibitor Directory Form"
+      "url": "/images/exhibitor-directory/dashboard.png?height=300&width=400",
+      "alt": "Exhibitor Directory Management Admin Panel"
     },
     {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Admin Panel"
-    },
-    {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Dynamic PDF Generation"
+      "url": "/images/exhibitor-directory/exh-startup.png?height=300&width=400",
+      "alt": "Public link that can called in the event website to display exhibitor list"
     }
   ],
   "overview": {

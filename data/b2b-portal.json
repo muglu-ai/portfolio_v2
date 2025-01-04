@@ -34,8 +34,7 @@
       "category": "Backend",
       "items": [
         {
-          "name": "PHP (CodeIgniter)",
-          "logo": "/codeigniter.png?height=64&width=64&text=CodeIgniter"
+          "name": "CodeIgniter"
         }
       ]
     },
@@ -69,8 +68,7 @@
       "category": "APIs",
       "items": [
         {
-          "name": "Email/SMS APIs",
-          "logo": "/sms-email.png?height=64&width=64&text=SMS+Email"
+          "name": "Email/SMS APIs"
         }
       ]
     }
