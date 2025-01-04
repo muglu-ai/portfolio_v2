@@ -35,7 +35,7 @@
       "items": [
         {
           "name": "PHP (Laravel)",
-          "logo": "/placeholder.svg?height=64&width=64&text=Laravel"
+          "logo": "/laravel.png?height=64&width=64&text=Laravel"
         }
       ]
     },
@@ -44,7 +44,7 @@
       "items": [
         {
           "name": "MySQL",
-          "logo": "/placeholder.svg?height=64&width=64&text=MySQL"
+          "logo": "/mysql.png?height=64&width=64&text=MySQL"
         }
       ]
     },
@@ -53,21 +53,19 @@
       "items": [
         {
           "name": "HTML",
-          "logo": "/placeholder.svg?height=64&width=64&text=HTML"
+          "logo": "/html.png?height=64&width=64&text=HTML"
         },
         {
           "name": "CSS",
-          "logo": "/placeholder.svg?height=64&width=64&text=CSS"
+          "logo": "/css.png?height=64&width=64&text=CSS"
         },
         {
           "name": "JavaScript",
-          "logo": "/placeholder.svg?height=64&width=64&text=JS"
+          "logo": "/js.png?height=64&width=64&text=JS"
         },
         {
-          "name": "React"
-        },
-        {
-          "name": "Next.js"
+          "name": "React",
+          "logo": "/react.png?height=64&width=64&text=React"
         }
       ]
     },
@@ -76,7 +74,7 @@
       "items": [
         {
           "name": "AWS",
-          "logo": "/placeholder.svg?height=64&width=64&text=AWS"
+          "logo": "/aws.png?height=64&width=64&text=AWS"
         }
       ]
     },
@@ -85,11 +83,11 @@
       "items": [
         {
           "name": "Zoho",
-          "logo": "/placeholder.svg?height=64&width=64&text=Zoho"
+          "logo": "/zoho.png?height=64&width=64&text=Zoho"
         },
         {
           "name": "Razorpay",
-          "logo": "/placeholder.svg?height=64&width=64&text=Razorpay"
+          "logo": "/razorpay.png?height=64&width=64&text=Razorpay"
         },
         {
           "name": "Mobile App APIs"

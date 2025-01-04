@@ -13,12 +13,12 @@ export default async function EventRegistrationSystem() {
     const data = JSON.parse(file)
 
     return (
-        <div className="container mx-auto px-4 py-8">
+        <div className="container mx-auto px-4 py-8 pt-8 mt-12 text-white ">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
                 <h1 className="text-4xl font-bold">{data.title}</h1>
                 <Link href={data.projectLink} target="_blank" rel="noopener noreferrer">
                     <Button variant="outline">
-                        View Project <ExternalLink className="ml-2 h-4 w-4" />
+                        View Project <ExternalLink className="ml-2 h-4 w-4 z-100" />
                     </Button>
                 </Link>
             </div>
