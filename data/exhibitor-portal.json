@@ -1,0 +1,74 @@
+{
+  "id": "exhibitor-portal-may-june-2024",
+  "title": "Exhibitor Portal",
+  "projectLink": "https://example.com/exhibitor-portal-may-june-2024",
+  "images": [
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Exhibitor Portal Dashboard"
+    },
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Exhibitor Profile Management"
+    },
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Automated Notification System"
+    }
+  ],
+  "overview": {
+    "description": "An online portal for exhibitors to manage event participation",
+    "details": "The Exhibitor Portal developed for the May-June 2024 event allows exhibitors to manage their booth details, invite delegates, and receive event notifications. A user-friendly interface provides easy access to profile and booth management features, while an automated notification system ensures real-time updates and important deadlines."
+  },
+  "features": [
+    "Exhibitor profile and booth management",
+    "Real-time notifications for event updates and deadlines",
+    "Delegate invitation management",
+    "Customizable booth requirement inputs",
+    "User-friendly interface for ease of use",
+    "Automated email and SMS notification system"
+  ],
+  "technologies": [
+    {
+      "category": "Backend",
+      "items": [
+        {
+          "name": "PHP (Laravel)",
+          "logo": "/laravel.png?height=64&width=64&text=Laravel"
+        }
+      ]
+    },
+    {
+      "category": "Database",
+      "items": [
+        {
+          "name": "MySQL",
+          "logo": "/mysql.png?height=64&width=64&text=MySQL"
+        }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        {
+          "name": "Blade",
+          "logo": "/blade.png?height=64&width=64&text=Blade"
+        }
+      ]
+    },
+    {
+      "category": "Hosting",
+      "items": [
+        {
+          "name": "Hostinger (Cloud Hosting)",
+          "logo": "/hostinger.png?height=64&width=64&text=Hostinger"
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    { "name": "Exhibitor Accounts", "value": 150, "max": 300 },
+    { "name": "Real-time Notifications Sent", "value": 1200, "max": 1500 },
+    { "name": "Booth Details Updated", "value": 500, "max": 700 }
+  ]
+}

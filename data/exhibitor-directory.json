@@ -1,0 +1,72 @@
+{
+  "id": "exhibitor-directory",
+  "title": "Exhibitor Directory",
+  "projectLink": "https://example.com/exhibitor-directory",
+  "images": [
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Exhibitor Directory Form"
+    },
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Admin Panel"
+    },
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Dynamic PDF Generation"
+    }
+  ],
+  "overview": {
+    "description": "A system for managing an exhibitor directory and generating dynamic lists",
+    "details": "Developed a comprehensive Exhibitor Directory system that allows users to fill in details, generating a complete exhibitor list. The admin panel enables easy management of the directory, including the integration of sponsor information and dynamic PDF list generation."
+  },
+  "features": [
+    "User-friendly exhibitor directory form for data entry",
+    "Admin panel for managing exhibitor information",
+    "Dynamic PDF list generation of exhibitors",
+    "Sponsor information integration",
+    "Customizable exhibitor list outputs"
+  ],
+  "technologies": [
+    {
+      "category": "Backend",
+      "items": [
+        {
+          "name": "PHP (Laravel)",
+          "logo": "/laravel.png?height=64&width=64&text=Laravel"
+        }
+      ]
+    },
+    {
+      "category": "Database",
+      "items": [
+        {
+          "name": "MySQL",
+          "logo": "/mysql.png?height=64&width=64&text=MySQL"
+        }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        {
+          "name": "HTML",
+          "logo": "/html.png?height=64&width=64&text=HTML"
+        },
+        {
+          "name": "CSS",
+          "logo": "/css.png?height=64&width=64&text=CSS"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "/js.png?height=64&width=64&text=JS"
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    { "name": "Exhibitor Directory Entries", "value": 500, "max": 1000 },
+    { "name": "PDF Generation Time (ms)", "value": 200, "max": 500 },
+    { "name": "Concurrent Admin Access", "value": 10, "max": 25 }
+  ]
+}

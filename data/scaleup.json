@@ -1,0 +1,66 @@
+{
+  "id": "scaleup-event-exhibition-website",
+  "title": "ScaleUp Event & Exhibition Website",
+  "projectLink": "https://scaleupevent.in/",
+  "images": [
+    {
+      "url": "/ScaleUP.png?height=300&width=400",
+      "alt": "ScaleUp Event & Exhibition Website Homepage"
+    },
+    {
+      "url": "/scaleup-blogs.png?height=300&width=400",
+      "alt": "Scaleup Blog System"
+    },
+    {
+      "url": "/scale-photo.png?height=300&width=400",
+      "alt": "Scaleup Gallery Page"
+    },
+    {
+      "url": "/scaleup-enquiry.png?height=300&width=400",
+      "alt": "Scaleup Contact Us Page"
+    }
+  ],
+  "overview": {
+    "description": "A dynamic website for ScaleUp Event & Exhibition to enhance lead generation and audience engagement",
+    "details": "Developed a dynamic, high-performance website for ScaleUp Event & Exhibition, focusing on lead generation, content management, and visual appeal. The website includes a content management system for blogs and event updates, hosted on AWS App Runner for seamless scalability and deployment, ensuring optimal performance during high traffic periods."
+  },
+  "features": [
+    "Lead generation-focused design to capture event registrations and inquiries",
+    "Content management system (CMS) for event updates, blogs, and announcements",
+    "SEO-enhanced features for improved search engine visibility",
+    "Responsive and visually engaging UI for a better user experience",
+    "High availability, scalability, and performance optimized through AWS App Runner"
+  ],
+  "technologies": [
+    {
+      "category": "Backend",
+      "items": [
+        {
+          "name": "TypeScript",
+          "logo": "/ts.png?height=64&width=64&text=React"
+        }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        {
+          "name": "React",
+          "logo": "/react.png?height=64&width=64&text=React"
+        }
+      ]
+    },
+    {
+      "category": "Cloud",
+      "items": [
+        {
+          "name": "AWS App Runner",
+          "logo": "/aws.png?height=64&width=64&text=AWS+App+Runner"
+        }
+      ]
+    }
+  ],
+  "metrics": [
+
+  ]
+}

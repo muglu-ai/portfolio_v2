@@ -1,0 +1,65 @@
+{
+  "id": "pdf-and-image-rag-google-gemini",
+  "title": "PDF and Image RAG (Retrieve and Generate) using Google Gemini",
+  "projectLink": "https://example.com/pdf-and-image-rag-google-gemini",
+  "images": [
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "PDF and Image RAG Interface"
+    },
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Interactive Querying with PDF"
+    },
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Image Recognition for Context-based Responses"
+    }
+  ],
+  "overview": {
+    "description": "A Retrieve and Generate (RAG) system utilizing Google Gemini for PDF and image interactions",
+    "details": "Developed a Retrieve and Generate (RAG) system powered by Google Gemini, enabling users to query and interact with the content of uploaded PDFs and images. The system incorporates advanced image recognition to extract relevant information from images and generate contextually accurate responses, enhancing user engagement and information retrieval."
+  },
+  "features": [
+    "Interactive querying and conversation with document content via chat interface",
+    "Image recognition technology to extract information from uploaded images",
+    "Context-aware responses generated from both PDFs and images",
+    "Seamless user experience for both text and image-based queries",
+    "Integration of Google Gemini API for intelligent dialogue management and processing"
+  ],
+  "technologies": [
+    {
+      "category": "Backend",
+      "items": [
+        {
+          "name": "Python",
+          "logo": "/python.png?height=64&width=64&text=Python"
+        }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        {
+          "name": "Streamlit",
+          "logo": "/streamlit.png?height=64&width=64&text=Streamlit"
+        }
+      ]
+    },
+    {
+      "category": "APIs",
+      "items": [
+        {
+          "name": "Google Gemini",
+          "logo": "/google-gemini.png?height=64&width=64&text=Google+Gemini"
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    { "name": "Documents Processed", "value": 500, "max": 1000 },
+    { "name": "Image Recognition Accuracy", "value": 92, "max": 98 },
+    { "name": "Query Response Speed (ms)", "value": 120, "max": 200 },
+    { "name": "User Interactions", "value": 15000, "max": 20000 }
+  ]
+}

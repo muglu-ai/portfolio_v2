@@ -1,0 +1,84 @@
+{
+  "id": "interlinx-b2b-portal",
+  "title": "Interlinx B2B Portal",
+  "projectLink": "https://example.com/interlinx-b2b-portal",
+  "images": [
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Interlinx B2B Portal Dashboard"
+    },
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Table Allocation Algorithm"
+    },
+    {
+      "url": "/placeholder.svg?height=300&width=400",
+      "alt": "Admin Panel"
+    }
+  ],
+  "overview": {
+    "description": "A platform to manage B2B interactions and meetings for large events",
+    "details": "Enhanced the Interlinx B2B Portal to accommodate 5,000+ users, offering features like intelligent table allocation based on sector preferences and dynamic booking for meetings and presentations. Integrated payment gateways support seamless transactions for different user types. The admin panel enables efficient management of registrations, table occupancy tracking, and report generation."
+  },
+  "features": [
+    "Dynamic table allocation based on user preferences and availability",
+    "Advanced booking system for meetings and presentations",
+    "Integrated payment gateways for seamless transactions",
+    "Intuitive admin panel for managing registrations and tracking table occupancy",
+    "Real-time booking status and availability updates",
+    "Email and SMS notifications for booking confirmations and reminders",
+    "Scalable to support 5,000+ users for large-scale events"
+  ],
+  "technologies": [
+    {
+      "category": "Backend",
+      "items": [
+        {
+          "name": "PHP (CodeIgniter)",
+          "logo": "/codeigniter.png?height=64&width=64&text=CodeIgniter"
+        }
+      ]
+    },
+    {
+      "category": "Database",
+      "items": [
+        {
+          "name": "MySQL",
+          "logo": "/mysql.png?height=64&width=64&text=MySQL"
+        }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        {
+          "name": "HTML",
+          "logo": "/html.png?height=64&width=64&text=HTML"
+        },
+        {
+          "name": "CSS (Bootstrap)",
+          "logo": "/bootstrap.png?height=64&width=64&text=Bootstrap"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "/js.png?height=64&width=64&text=JS"
+        }
+      ]
+    },
+    {
+      "category": "APIs",
+      "items": [
+        {
+          "name": "Email/SMS APIs",
+          "logo": "/sms-email.png?height=64&width=64&text=SMS+Email"
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    { "name": "Users Managed", "value": 5000, "max": 7000 },
+    { "name": "Bookings Processed", "value": 3000, "max": 5000 },
+    { "name": "Table Occupancy Rate", "value": 95, "max": 100 },
+    { "name": "Notification Sent", "value": 12000, "max": 15000 }
+  ]
+}

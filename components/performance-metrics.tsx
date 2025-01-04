@@ -18,6 +18,7 @@ interface PerformanceMetricsProps {
 export function PerformanceMetrics({ metrics }: PerformanceMetricsProps) {
     const [hoveredMetric, setHoveredMetric] = useState<string | null>(null)
 
+    if (metrics.length != 0) {
     return (
         // hello
         <Card>
@@ -46,5 +47,10 @@ export function PerformanceMetrics({ metrics }: PerformanceMetricsProps) {
             </CardContent>
         </Card>
     )
+    }
+    else{
+        return null
+    }
+
 }
 
