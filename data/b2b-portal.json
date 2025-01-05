@@ -1,19 +1,11 @@
 {
   "id": "interlinx-b2b-portal",
   "title": "Interlinx B2B Portal",
-  "projectLink": "https://example.com/interlinx-b2b-portal",
+  "projectLink": "https://bengalurutechsummit.com/web/bts-interlinx/",
   "images": [
     {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Interlinx B2B Portal Dashboard"
-    },
-    {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Table Allocation Algorithm"
-    },
-    {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Admin Panel"
+      "url": "/InterlinxPortal.png?height=300&width=400",
+      "alt": "B2B Portal Dashboard"
     }
   ],
   "overview": {
@@ -74,9 +66,6 @@
     }
   ],
   "metrics": [
-    { "name": "Users Managed", "value": 5000, "max": 7000 },
-    { "name": "Bookings Processed", "value": 3000, "max": 5000 },
-    { "name": "Table Occupancy Rate", "value": 95, "max": 100 },
-    { "name": "Notification Sent", "value": 12000, "max": 15000 }
+
   ]
 }

@@ -4,16 +4,8 @@
   "projectLink": "https://example.com/generative-chatbot-google-gemini-april-2024",
   "images": [
     {
-      "url": "/placeholder.svg?height=300&width=400",
+      "url": "images/gen-ai/chatbot.png?height=300&width=400",
       "alt": "Generative Chatbot Interface"
-    },
-    {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "User Interaction Flow"
-    },
-    {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Google Gemini API Integration"
     }
   ],
   "overview": {
@@ -21,7 +13,6 @@
     "details": "Developed a generative chatbot utilizing Google Gemini to provide dynamic, context-aware conversations. The chatbot was designed to enhance user interactions, offering natural language understanding and generating responses that are contextually relevant, improving user engagement and overall satisfaction."
   },
   "features": [
-    "Natural Language Understanding and Generation for advanced conversations",
     "Context-aware responses based on user input",
     "Improved user engagement and satisfaction through dynamic interactions",
     "Real-time conversational support",
@@ -57,8 +48,6 @@
     }
   ],
   "metrics": [
-    { "name": "User Interactions", "value": 10000, "max": 15000 },
-    { "name": "Response Accuracy", "value": 98, "max": 100 },
-    { "name": "Engagement Rate", "value": 85, "max": 95 }
+
   ]
 }

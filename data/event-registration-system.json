@@ -1,19 +1,27 @@
 {
   "id": "event-registration-system",
   "title": "Event Registration System",
-  "projectLink": "https://example.com/event-registration-system",
+  "projectLink": "#",
   "images": [
     {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Event Registration System Dashboard"
+      "url": "/images/registration/ticket.png?height=300&width=400",
+      "alt": "Multiple Ticket Options"
     },
     {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Mobile App Interface"
+      "url": "/images/registration/membership-verification.png?height=300&width=400",
+      "alt": "Membership Verification from Zoho APIs"
     },
     {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Payment Gateway Integration"
+      "url": "/images/registration/reg-form.png?height=300&width=400",
+      "alt": "Event Customized Registration Form"
+    },
+    {
+      "url": "/images/registration/payment-gateway.png?height=300&width=400",
+      "alt": "Razorpay Payment Gateway Integration"
+    },
+    {
+      "url": "/images/registration/admin-dashboard.png?height=300&width=400",
+      "alt": "Registration Analytics Dashboard"
     }
   ],
   "overview": {
@@ -21,7 +29,7 @@
     "details": "Developed a high-performance Event Registration System capable of handling 20,000+ concurrent users. The system integrates multiple payment gateways, third-party APIs, and implements real-time notifications for a seamless user experience."
   },
   "features": [
-    "Scalable architecture handling 20,000+ concurrent users",
+    "Scalable architecture handling 50,000+ users",
     "Integration with multiple payment gateways (Razorpay, PayU, CCAvenue)",
     "Third-party API integration (Zoho, Mobile App APIs)",
     "Real-time attendee data synchronization",
@@ -100,9 +108,7 @@
     }
   ],
   "metrics": [
-    { "name": "Concurrent Users", "value": 20000, "max": 25000 },
-    { "name": "Latency (ms)", "value": 50, "max": 200 },
-    { "name": "Throughput (req/s)", "value": 5000, "max": 6000 }
+
   ]
 }
 

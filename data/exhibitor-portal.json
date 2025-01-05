@@ -1,19 +1,19 @@
 {
   "id": "exhibitor-portal-may-june-2024",
   "title": "Exhibitor Portal",
-  "projectLink": "https://example.com/exhibitor-portal-may-june-2024",
+  "projectLink": "",
   "images": [
     {
-      "url": "/placeholder.svg?height=300&width=400",
+      "url": "images/exh-portal/exhi-portal-dashboard.png/placeholder.svg?height=300&width=400",
       "alt": "Exhibitor Portal Dashboard"
     },
     {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Exhibitor Profile Management"
+      "url": "images/exh-portal/profile-management.png?height=300&width=400",
+      "alt": "Exhibitor Profile management"
     },
     {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Automated Notification System"
+      "url": "images/exh-portal/exhi-portal-invitation.png?height=300&width=400",
+      "alt": "Exhibitor Invitation management"
     }
   ],
   "overview": {
@@ -67,8 +67,6 @@
     }
   ],
   "metrics": [
-    { "name": "Exhibitor Accounts", "value": 150, "max": 300 },
-    { "name": "Real-time Notifications Sent", "value": 1200, "max": 1500 },
-    { "name": "Booth Details Updated", "value": 500, "max": 700 }
+
   ]
 }

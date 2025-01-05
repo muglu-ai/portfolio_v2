@@ -1,7 +1,7 @@
 {
   "id": "exhibitor-directory",
   "title": "Exhibitor Directory",
-  "projectLink": "https://example.com/exhibitor-directory",
+  "projectLink": "https://startupmahakumbh.assocham.org/exhibitor_directory/",
   "images": [
     {
       "url": "/images/exhibitor-directory/dashboard.png?height=300&width=400",
@@ -61,8 +61,6 @@
     }
   ],
   "metrics": [
-    { "name": "Exhibitor Directory Entries", "value": 500, "max": 1000 },
-    { "name": "PDF Generation Time (ms)", "value": 200, "max": 500 },
-    { "name": "Concurrent Admin Access", "value": 10, "max": 25 }
+
   ]
 }

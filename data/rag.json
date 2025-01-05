@@ -4,16 +4,8 @@
   "projectLink": "https://example.com/pdf-and-image-rag-google-gemini",
   "images": [
     {
-      "url": "/placeholder.svg?height=300&width=400",
+      "url": "images/gen-ai/pdf-rag.png?height=300&width=400",
       "alt": "PDF and Image RAG Interface"
-    },
-    {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Interactive Querying with PDF"
-    },
-    {
-      "url": "/placeholder.svg?height=300&width=400",
-      "alt": "Image Recognition for Context-based Responses"
     }
   ],
   "overview": {
@@ -57,9 +49,6 @@
     }
   ],
   "metrics": [
-    { "name": "Documents Processed", "value": 500, "max": 1000 },
-    { "name": "Image Recognition Accuracy", "value": 92, "max": 98 },
-    { "name": "Query Response Speed (ms)", "value": 120, "max": 200 },
-    { "name": "User Interactions", "value": 15000, "max": 20000 }
+
   ]
 }
