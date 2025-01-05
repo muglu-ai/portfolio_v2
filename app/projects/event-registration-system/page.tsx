@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button'
 import { ExternalLink } from 'lucide-react'
 
 export default async function EventRegistrationSystem() {
-    const file = await fs.readFile(process.cwd() + '/data/project-data.json', 'utf8')
+    const file = await fs.readFile(process.cwd() + '/data/event-registration-system.json', 'utf8')
     const data = JSON.parse(file)
 
     return (
