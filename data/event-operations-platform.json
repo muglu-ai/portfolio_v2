@@ -1,0 +1,88 @@
+{
+  "id": "event-operations-platform",
+  "title": "Event Operations & Registration Platform",
+  "projectLink": "",
+  "images": [
+    {
+      "url": "/EventOperationsPlatform.png",
+      "alt": "Event Operations Platform — Bengaluru Tech Summit registration and admin dashboard"
+    }
+  ],
+  "overview": {
+    "description": "A multi-event Django platform for large-scale tech summits — configurable registration, exhibitor lifecycle, and unified ticketing at scale.",
+    "details": "Production-grade event operations platform built for Bengaluru Tech Summit, designed to run end-to-end operations for large technology exhibitions and conferences. It handles exhibitor and startup booth applications, sponsorship, visitor and delegate registration, payments, floor/booth allocation, and operational reporting — all from a single admin-controlled system.\n\nWhat makes it stand out is its highly configurable registration architecture. The same platform supports multiple registration paradigms side by side: legacy authenticated exhibitor flows, guest-first public registrations (Startup Zone, Poster, Elevate, Visa Clearance), and a config-first unified ticketing system where categories, pricing, sale windows, day access, promo codes, and form fields are all admin-configurable — no code changes required per event. Super-admins can spin up and configure new events through the admin panel, making the system reusable across different summits and formats.\n\nBuilt for event organizers and ops teams managing large-scale technology summits and trade exhibitions — exhibitors applying for booth space, startups in dedicated zones, delegates purchasing conference passes, sponsors with association-specific pricing, and admin staff running approvals, payments, floor allocation, and analytics, all configurable per event."
+  },
+  "features": [
+    "Multi-event configuration — Super-admin CRUD for events, sectors, organization types, and per-event ticket setup",
+    "Config-first unified ticketing — Admin-defined categories, subcategories, ticket types, early-bird pricing, inventory, and day-access rules; public discovery at slug-based URLs (/tickets/{eventSlug})",
+    "Dynamic form builder — Versioned form field configuration with field groups and JSON validation rules per registration type",
+    "Guest-first delegate registration — Single-page flow with unlimited delegates per company, GST auto-fill, group discounts, and UTM/source tracking",
+    "Separate delegate identity domain — High-volume attendees in a dedicated contacts/delegates model with OTP/magic-link auth and a full Delegate Panel for badges, receipts, and upgrades",
+    "Exhibitor application lifecycle — Multi-step onboarding, admin approve/reject/hold, booth allocation (shell scheme / raw space), pass auto-allocation by SQM, and co-exhibitor sub-accounts",
+    "Startup Zone & public registration flows — No-login session-based drafts with auto-save, association promocode pricing, and encrypted GST/PAN handling",
+    "Dual payment gateway integration — CCAvenue (INR) and PayPal (USD/EUR) with webhooks, partial payments, TDS/surcharge handling, and receipt verification",
+    "Admin operations suite — Registration analytics and Excel exports, soft-delete with restore, payment dashboards, floor/booth management, and delegate push notifications",
+    "External integrations — Email delivery, GST lookup API, attendee sync, QR codes, PDF receipts, and CRM sync",
+    "Config-first ticketing architecture — Event behavior (auth policy, selection mode, receipt patterns) stored in database config; catalog hierarchy fully admin-driven",
+    "Snapshot-based commerce — Price and day-access captured at purchase time, preserving audit integrity when catalog prices change",
+    "Identity separation for scale — Portal users (exhibitors/admins) and high-volume ticket delegates in separate models with dedicated auth middleware and custom user backends",
+    "Multi-flow pattern reuse — Shared auto-save drafts, GST lookup, promocode validation, and preview → submit → invoice → gateway → confirmation pipeline",
+    "Role-based access control — Granular permissions for super-admin, admin, exhibitor, co-exhibitor, sponsor, sales, visitor, and floor-management roles",
+    "Service-oriented architecture — Payment, ticketing, and receipt logic isolated in Django service modules, keeping views thin and business logic testable"
+  ],
+  "technologies": [
+    {
+      "category": "Backend",
+      "items": [
+        { "name": "Python 3.11+" },
+        { "name": "Django 5.x", "logo": "/django.png" }
+      ]
+    },
+    {
+      "category": "Database",
+      "items": [
+        { "name": "PostgreSQL" },
+        { "name": "MySQL", "logo": "/mysql.png" }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "Django Templates" },
+        { "name": "Tailwind CSS" },
+        { "name": "Vite" }
+      ]
+    },
+    {
+      "category": "Payments",
+      "items": [
+        { "name": "CCAvenue" },
+        { "name": "PayPal" }
+      ]
+    },
+    {
+      "category": "Documents & Utilities",
+      "items": [
+        { "name": "WeasyPrint" },
+        { "name": "ReportLab" },
+        { "name": "openpyxl" },
+        { "name": "qrcode" },
+        { "name": "Celery" },
+        { "name": "Redis" },
+        { "name": "ElasticEmail" }
+      ]
+    },
+    {
+      "category": "Auth",
+      "items": [
+        { "name": "Django auth" },
+        { "name": "Custom RBAC" }
+      ]
+    }
+  ],
+  "metrics": [
+    { "name": "Views / controllers", "value": 80, "max": 100 },
+    { "name": "Database migrations", "value": 180, "max": 200 },
+    { "name": "Templates", "value": 500, "max": 500 }
+  ]
+}

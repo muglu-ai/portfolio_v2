@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Manish's Portfolio
 
-## Getting Started
+A Next.js portfolio site configured for **free static deployment on Netlify**.
 
-First, run the development server:
+## Tech stack
+
+- Next.js 13 (App Router)
+- React 18
+- Tailwind CSS
+- Three.js star background
+- Framer Motion animations
+
+## Local development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm run build
+```
 
-## Learn More
+The static site is exported to the `out/` directory.
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy to Netlify (free tier)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project uses **static export** (`output: "export"`), which works well on Netlify's free plan:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- No serverless functions required
+- Fast CDN delivery
+- Simple build pipeline
 
-## Deploy on Vercel
+### Option 1: Connect GitHub (recommended)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push this repo to GitHub.
+2. In [Netlify](https://app.netlify.com/), click **Add new site → Import an existing project**.
+3. Select your repository.
+4. Netlify reads settings from `netlify.toml` automatically:
+   - **Build command:** `npm run build`
+   - **Publish directory:** `out`
+   - **Node version:** 18
+5. Click **Deploy site**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Option 2: Netlify CLI
+
+```bash
+npm install -g netlify-cli
+npm run build
+netlify deploy --prod --dir=out
+```
+
+### Custom domain
+
+In Netlify: **Site settings → Domain management → Add custom domain**. Netlify provides free HTTPS.
+
+## Project structure
+
+```
+app/                  # Next.js App Router pages
+components/           # UI and section components
+constants/            # Skills, social links, project cards
+data/                 # Project detail JSON (used by project pages)
+lib/                  # Shared types and utilities
+public/               # Static assets (images, icons)
+netlify.toml          # Netlify build and cache headers
+```
+
+## Notes
+
+- Images use `unoptimized: true` because static export does not include Next.js Image Optimization.
+- Project pages import JSON at build time, so all routes are pre-rendered as static HTML.

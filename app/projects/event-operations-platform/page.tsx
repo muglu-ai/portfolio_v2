@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import data from "@/data/scaleup.json";
+import data from "@/data/event-operations-platform.json";
 import { ProjectPage } from "@/components/project-page";
 import type { ProjectData } from "@/lib/project-data";
 
@@ -10,6 +10,6 @@ export const metadata: Metadata = {
   description: project.overview.description,
 };
 
-export default function ScaleUpEventPage() {
+export default function EventOperationsPlatformPage() {
   return <ProjectPage data={project} />;
 }

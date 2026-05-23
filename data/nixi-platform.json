@@ -1,0 +1,69 @@
+{
+  "id": "nixi-platform",
+  "title": "NIXI Platform",
+  "projectLink": "",
+  "images": [
+    {
+      "url": "/NIXIPlatform.png",
+      "alt": "NIXI Platform — IX member onboarding, billing, and admin dashboard"
+    }
+  ],
+  "overview": {
+    "description": "Full-stack Laravel platform for NIXI to onboard IX members, run multi-stage application approvals, automate billing/invoicing, and process payments with KYC and grievance management.",
+    "details": "Developed an enterprise web platform for the National Internet Exchange of India (NIXI) to digitize IX membership onboarding, service provisioning, and billing. The system supports member registration with OTP and PAN verification, a multi-role approval workflow (Processor → Legal → Head → CEO → Nodal Officer → Tech/Account), PayU payment integration with wallet support, and automated monthly/membership invoicing with PDF generation.\n\nAlso includes KYC verification (GST, PAN, MCA, Udyam via IDfy), grievance ticketing with escalation, and role-based admin dashboards for operations and finance teams. Deployed on Linux with Apache, MySQL, and master–slave database replication for read scaling and resilience."
+  },
+  "features": [
+    "Built a Laravel 12 / PHP 8.2 web application for NIXI to manage Internet Exchange (IX) member onboarding, service lifecycle, and billing across User, Admin, and SuperAdmin portals",
+    "Implemented a multi-stage approval workflow for IX applications (Processor → Legal → Head → CEO → Nodal Officer → Tech/Account) with status history, email notifications, and role-based access control",
+    "Integrated PayU payment gateway and an internal wallet system for application fees, invoice payments, and reactivation charges, with webhook logging and payment verification",
+    "Designed automated billing: monthly IX service invoices, annual membership invoices, reactivation/credit notes, TDS handling, and DomPDF-based invoice/application PDFs",
+    "Built KYC & identity verification flows using IDfy APIs for PAN, GST, MCA, ROC/IEC, and Udyam validation during registration and IX application submission",
+    "Developed grievance management with categories, assignments, escalation rules, attachments, and admin routing by role",
+    "Created scheduled jobs for payment reminders, overdue invoice emails, ticket escalation, wallet balance alerts, and monthly invoice generation",
+    "Built SuperAdmin tooling for IX location/port/IP pricing, membership fee configuration, bulk notifications, data exports, and admin user management",
+    "Styled responsive UI with Tailwind CSS 4 and Vite; set up GitHub Actions CI/CD for linting, PHPUnit tests, and deployment",
+    "Provisioned production infrastructure on Linux with Apache, MySQL server, and master–slave database replication"
+  ],
+  "technologies": [
+    {
+      "category": "Backend",
+      "items": [
+        { "name": "PHP 8.2" },
+        { "name": "Laravel 12", "logo": "/laravel.png" },
+        { "name": "MySQL", "logo": "/mysql.png" },
+        { "name": "PHPUnit" }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "Tailwind CSS 4" },
+        { "name": "Vite" }
+      ]
+    },
+    {
+      "category": "Integrations",
+      "items": [
+        { "name": "PayU" },
+        { "name": "IDfy API" }
+      ]
+    },
+    {
+      "category": "Infrastructure",
+      "items": [
+        { "name": "Linux" },
+        { "name": "Apache" },
+        { "name": "MySQL master–slave replication" },
+        { "name": "GitHub Actions" }
+      ]
+    },
+    {
+      "category": "Other",
+      "items": [
+        { "name": "DomPDF" },
+        { "name": "QR Code" }
+      ]
+    }
+  ],
+  "metrics": []
+}

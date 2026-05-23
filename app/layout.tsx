@@ -9,7 +9,15 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Manish's Portfolio",
-  description: "This is my portfolio",
+  description:
+    "Full-stack developer portfolio showcasing web applications, event platforms, and AI projects.",
+  metadataBase: new URL(process.env.URL ?? "http://localhost:3000"),
+  openGraph: {
+    title: "Manish's Portfolio",
+    description:
+      "Full-stack developer portfolio showcasing web applications, event platforms, and AI projects.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

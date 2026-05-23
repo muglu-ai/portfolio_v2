@@ -1,0 +1,63 @@
+{
+  "id": "irinn-portal",
+  "title": "IRINN Portal",
+  "projectLink": "",
+  "images": [
+    {
+      "url": "/IRINNPortal.png",
+      "alt": "IRINN Portal — registration, KYC, and resource management dashboard"
+    }
+  ],
+  "overview": {
+    "description": "Multi-role Laravel portal for Internet resource registration, KYC verification, APNIC integration, billing, and grievance management.",
+    "details": "Enterprise portal for IRINN (Indian Registry for Internet Names and Numbers) operations — supporting members through registration, document upload, multi-stage approval, and resource allocation, while equipping helpdesk, hostmaster, and billing teams with role-based tooling.\n\nThe system integrates APNIC Registry APIs for WHOIS and route management, PayU and an internal wallet for payments, IDfy for KYC validation, and E-Invoice compliance — with legacy data migrated from previous IRINN portal and billing systems."
+  },
+  "features": [
+    "Designed and implemented a multi-role portal (User, Admin, Super Admin) with OTP-based authentication and role-based access for helpdesk, hostmaster, and billing teams",
+    "Built end-to-end IRINN application workflow — registration, document upload, KYC verification, multi-stage approval (helpdesk → hostmaster → billing), and resource allocation",
+    "Integrated APNIC Registry API for WHOIS object management (create/update/delete) and member route registration with async task polling and audit logging",
+    "Developed a billing & invoicing module — annual/one-time/reactivation fees, invoice PDF generation (DomPDF), credit notes, TDS handling, and legacy billing data migration",
+    "Integrated PayU payment gateway and an internal wallet system for application fees and invoice payments, including guest invoice payment flow",
+    "Implemented KYC/identity verification using IDfy APIs for GST, PAN, Udyam, MCA, and ROC/IEC validation during onboarding",
+    "Built a grievance/ticketing system with categories, auto-assignment, escalation rules, and admin workflow management",
+    "Migrated data from legacy IRINN portal and billing systems via custom import/migration services and console commands"
+  ],
+  "technologies": [
+    {
+      "category": "Backend",
+      "items": [
+        { "name": "PHP 8.4" },
+        { "name": "Laravel 12", "logo": "/laravel.png" },
+        { "name": "Eloquent ORM" },
+        { "name": "MySQL", "logo": "/mysql.png" },
+        { "name": "PHPUnit" }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "Blade" },
+        { "name": "Bootstrap" },
+        { "name": "JavaScript", "logo": "/js.png" }
+      ]
+    },
+    {
+      "category": "Integrations",
+      "items": [
+        { "name": "APNIC Registry API" },
+        { "name": "PayU" },
+        { "name": "IDfy (KYC)" },
+        { "name": "E-Invoice" },
+        { "name": "SMS (MyToday)" }
+      ]
+    },
+    {
+      "category": "Other",
+      "items": [
+        { "name": "DomPDF" },
+        { "name": "QR Code" }
+      ]
+    }
+  ],
+  "metrics": []
+}

@@ -18,6 +18,10 @@
 # misc
 .DS_Store
 *.pem
+.idea/
+
+# duplicate asset folder (use public/ only)
+public_new/
 
 # debug
 npm-debug.log*

@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,  // Optional: enables React Strict Mode
-    webpack(config) {
-        // Example: add custom Webpack configurations here
-        return config;
-    }
+  output: "export",
+  reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;

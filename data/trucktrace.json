@@ -1,0 +1,67 @@
+{
+  "id": "trucktrace",
+  "title": "TruckTrace",
+  "projectLink": "",
+  "images": [
+    {
+      "url": "/TruckTrace.png",
+      "alt": "TruckTrace mobile app — freight logistics dashboard"
+    }
+  ],
+  "overview": {
+    "description": "React Native customer app for freight logistics: quotes, live trip tracking, invoicing, and payments, built for the East African market.",
+    "details": "TruckTrace is the customer-facing piece of a larger logistics platform. Users can register as individuals or companies, upload compliance documents, request quotes with map-based locations, follow active and completed trips, view invoices, record payments (cash, bank transfer, and planned mobile money), and open support tickets with in-app messaging.\n\nBuilt with TypeScript, Expo Router, and React Native Paper, the app uses secure token storage, automatic JWT refresh, Firebase Cloud Messaging for trip and payment updates, and Google Maps / location services for routing workflows. Architecture is file-based routing, context for shared state, and modular API services across 40+ endpoints."
+  },
+  "features": [
+    "End-to-end quote → trip → invoice → payment flow for freight customers",
+    "Dual onboarding for individuals and companies (documents, bank details, verification)",
+    "Real-time trip tracking with status history and dashboard summaries",
+    "Map-based pickup/drop selection and location services",
+    "Invoice and payment management with partial payments and status tracking",
+    "Push notifications (FCM) for quotes, trips, and payments",
+    "Support tickets with chat-style conversations and attachments",
+    "Secure auth: OTP/login, JWT + refresh tokens, Expo Secure Store",
+    "Cross-platform Android & iOS via Expo / EAS builds"
+  ],
+  "technologies": [
+    {
+      "category": "Mobile",
+      "items": [
+        { "name": "React Native" },
+        { "name": "Expo" },
+        { "name": "TypeScript", "logo": "/ts.png" },
+        { "name": "Expo Router" },
+        { "name": "React Navigation" },
+        { "name": "React Native Paper" },
+        { "name": "Reanimated" },
+        { "name": "Hermes" },
+        { "name": "EAS" }
+      ]
+    },
+    {
+      "category": "Maps & Location",
+      "items": [
+        { "name": "Google Maps" }
+      ]
+    },
+    {
+      "category": "Backend & Auth",
+      "items": [
+        { "name": "REST APIs" },
+        { "name": "JWT" },
+        { "name": "Azure" },
+        { "name": "Expo Secure Store" }
+      ]
+    },
+    {
+      "category": "Notifications",
+      "items": [
+        { "name": "Firebase (FCM)" }
+      ]
+    }
+  ],
+  "metrics": [
+    { "name": "REST API endpoints", "value": 40, "max": 50 },
+    { "name": "Supported platforms", "value": 2, "max": 2 }
+  ]
+}

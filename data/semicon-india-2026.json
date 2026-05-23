@@ -1,0 +1,53 @@
+{
+  "id": "semicon-india-2026",
+  "title": "SEMICON India 2026",
+  "projectLink": "",
+  "images": [
+    {
+      "url": "/SemiconIndia2026.png",
+      "alt": "SEMICON India 2026 — event registration and operations platform"
+    }
+  ],
+  "overview": {
+    "description": "Event registration & operations platform for a major government-backed industry conference.",
+    "details": "End-to-end Laravel application for SEMICON India 2026 — a major industry conference covering public registration, exhibitor booths, sponsorship tiers, payments, and post-login experiences for visitors, exhibitors, sponsors, liaising officers, and internal teams.\n\nThe platform unifies attendee self-service, company SPOC workflows, on-site liaison coordination, exhibitor and sponsorship commerce, and role-based admin tooling under one SEMICON-branded system with integrated payments, document exports, and email communications."
+  },
+  "features": [
+    "Unified attendee hub — dashboard with conference content (agenda, sessions, passes), travel and hotel forms, visa clearance, and organiser notifications",
+    "SPOC workflows — company contacts invite colleagues via links, track registration status, and manage inaugural ceremony decisions (visitor and exhibitor paths)",
+    "Company & organization data — central company list with deduplication and search across past and current records at registration time",
+    "Liaising officer workspace — assigned visitors, pass status updates, and read-only travel/accommodation summaries for on-site coordination",
+    "Exhibitor & sponsorship — delegate management, booth passes, sponsorship cart/summary, and booth credit toward title sponsorship for large stands (54+ sqm)",
+    "Admin by role — menus and tools tailored for visa, sales, visitor ops, and general administration; improved search, tables, and SEMICON branding across emails and UI"
+  ],
+  "technologies": [
+    {
+      "category": "Backend",
+      "items": [
+        { "name": "PHP 8.2" },
+        { "name": "Laravel 11", "logo": "/laravel.png" },
+        { "name": "MySQL", "logo": "/mysql.png" }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "Blade" },
+        { "name": "jQuery" },
+        { "name": "DataTables" },
+        { "name": "Alpine.js" }
+      ]
+    },
+    {
+      "category": "Integrations",
+      "items": [
+        { "name": "PayPal" },
+        { "name": "Elastic Email" },
+        { "name": "PDF export" },
+        { "name": "Excel export" },
+        { "name": "QR codes" }
+      ]
+    }
+  ],
+  "metrics": []
+}
