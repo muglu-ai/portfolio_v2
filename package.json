@@ -9,10 +9,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "npx serve out",
+    "dev:netlify": "netlify dev",
     "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "@netlify/blobs": "^10.0.0",
     "@radix-ui/react-progress": "^1.1.1",
     "@radix-ui/react-slot": "^1.1.1",
     "@react-three/drei": "^10.0.0",
@@ -31,6 +33,7 @@
     "three": "^0.175.0"
   },
   "devDependencies": {
+    "@netlify/functions": "^2.8.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

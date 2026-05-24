@@ -4,6 +4,7 @@ import "./globals.css";
 import StarBackgroundWrapper from "@/components/main/StarBackgroundWrapper";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
+import VisitorCounter from "@/components/VisitorCounter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,6 +35,7 @@ export default function RootLayout({
         <Navbar />
         <main className="relative z-10">{children}</main>
         <Footer />
+        <VisitorCounter />
       </body>
     </html>
   );
