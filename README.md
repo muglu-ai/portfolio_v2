@@ -43,7 +43,7 @@ This project uses **static export** (`output: "export"`), which works well on Ne
 4. Netlify reads settings from `netlify.toml` automatically:
    - **Build command:** `npm run build`
    - **Publish directory:** `out`
-   - **Node version:** 18
+   - **Node version:** 20
 5. Click **Deploy site**.
 
 ### Option 2: Netlify CLI
