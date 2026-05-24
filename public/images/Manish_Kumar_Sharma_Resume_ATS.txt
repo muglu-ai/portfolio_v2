@@ -1,0 +1,35 @@
+MANISH KUMAR SHARMA
+Pune, India | manishksharma9801@gmail.com | +91-980-121-7815
+manish-space.netlify.app | linkedin.com/in/manishsharma98 | github.com/muglu-ai
+
+PROFESSIONAL SUMMARY
+Associate Software Engineer with 2+ years of production experience building enterprise web and mobile platforms. Proficient in Python (Django), PHP (Laravel), REST APIs, and payment/KYC integrations for high-traffic event-tech and registry systems serving 20,000+ users. Skilled in OOP design, unit testing, CI/CD, query optimization, and cross-functional delivery with global teams.
+
+TECHNICAL SKILLS
+Languages: Python, JavaScript, TypeScript, PHP 8.x, Java
+Frameworks: Django, Laravel, CodeIgniter, React, Next.js, React Native, Expo, Node.js, FastAPI, Flask
+Databases: MySQL, PostgreSQL, MongoDB, Redis
+APIs and Integrations: RESTful APIs, OAuth, JWT, Razorpay, PayU, PayPal, CCAvenue, IDfy KYC, APNIC Registry API, GST, PAN, Udyam, MCA verification
+DevOps and Cloud: Git, GitHub Actions, AWS (EC2, S3, App Runner), GCP, Docker, Linux
+Testing and Tools: pytest, PHPUnit, GitHub Copilot, Streamlit, Google Gemini, ElasticSearch
+
+PROFESSIONAL EXPERIENCE
+Software Developer, SCI Knowledge Interlinx Pvt. Ltd., Pune, India                    Nov 2023 - Present
+
+- Developed and maintained client-specific Python (Django) and PHP (Laravel) platforms following OOP and SDLC standards, delivering on estimated timelines with low post-release defect rates.
+- Built REST APIs and microservices with OAuth, JWT, and role-based access control serving 20,000+ concurrent users across multi-tenant B2B and event registration platforms.
+- Delivered NIXI Internet Exchange membership system (Laravel 12): multi-stage approval workflows, automated billing and invoicing, PayU wallet integration, IDfy KYC (GST, PAN, Udyam, MCA), GitHub Actions CI/CD, and MySQL master-slave replication on Linux and Apache.
+- Built IRINN portal with APNIC Registry API integration for WHOIS and route management, multi-role RBAC, grievance ticketing, DomPDF invoicing, legacy data migration, and zero compliance incidents in production.
+- Architected Event Operations Platform (Django 5) for Bengaluru Tech Summit: config-first multi-event ticketing, exhibitor lifecycle, dual payment gateways (CCAvenue, PayPal), floor and booth management, Celery, Redis, and admin analytics.
+- Built high-availability event registration system (Laravel) with Razorpay, PayU, and CCAvenue; enhanced Interlinx B2B portal (CodeIgniter, 5,000+ users) with intelligent table allocation and meeting booking workflows.
+- Improved performance through query optimization, Redis caching, and ElasticSearch indexing; authored pytest and PHPUnit test suites; mentored junior developers via code reviews and pair programming.
+
+FREELANCE PROJECTS
+TruckTrace — Cross-Platform Logistics App | Freelance Mobile Developer, Independent Client, East Africa
+
+- Developed customer-facing freight logistics app (React Native, Expo, TypeScript) for quotes, live trip tracking, invoicing, and payments; integrated 40+ REST endpoints, JWT refresh tokens, FCM, and Google Maps.
+- Shipped Android and iOS builds via EAS with secure OTP auth, support ticketing, and payment workflows (cash, bank transfer, mobile money).
+
+EDUCATION
+Bachelor of Engineering in Computer Science and Engineering
+Visvesvaraya Technological University, Bangalore                                          Aug 2019 - May 2023
