@@ -1,4 +1,4 @@
-import { Socials } from "@/constants";
+import { NAV_SOCIALS } from "@/constants/social";
 import Image from "next/image";
 import React from "react";
 
@@ -38,14 +38,22 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
+          {NAV_SOCIALS.map((social) => (
+            <a
               key={social.name}
-              width={24}
-              height={24}
-            />
+              href={social.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={social.name}
+              className="opacity-80 transition-opacity hover:opacity-100"
+            >
+              <Image
+                src={social.src}
+                alt={social.name}
+                width={24}
+                height={24}
+              />
+            </a>
           ))}
         </div>
       </div>
