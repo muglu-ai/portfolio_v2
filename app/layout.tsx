@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <StarBackgroundWrapper />
         <Navbar />
-        {children}
+        <main className="relative z-10">{children}</main>
         <Footer />
       </body>
     </html>
