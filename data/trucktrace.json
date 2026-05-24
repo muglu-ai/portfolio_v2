@@ -4,8 +4,28 @@
   "projectLink": "",
   "images": [
     {
-      "url": "/TruckTrace.png",
-      "alt": "TruckTrace mobile app — freight logistics dashboard"
+      "url": "/images/trucktrace/splash.png",
+      "alt": "TruckTrace splash screen with brand logo"
+    },
+    {
+      "url": "/images/trucktrace/1.png",
+      "alt": "Welcome screen with login and sign up"
+    },
+    {
+      "url": "/images/trucktrace/2.png",
+      "alt": "Home dashboard — active trips, quotes, and today's overview"
+    },
+    {
+      "url": "/images/trucktrace/3.png",
+      "alt": "Invoices list with payment status and trip linking"
+    },
+    {
+      "url": "/images/trucktrace/4.png",
+      "alt": "Trip details with live map tracking and driver info"
+    },
+    {
+      "url": "/images/trucktrace/5.png",
+      "alt": "Company profile with quotations and trips summary"
     }
   ],
   "overview": {

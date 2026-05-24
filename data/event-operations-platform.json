@@ -4,8 +4,24 @@
   "projectLink": "",
   "images": [
     {
-      "url": "/EventOperationsPlatform.png",
-      "alt": "Event Operations Platform — Bengaluru Tech Summit registration and admin dashboard"
+      "url": "/images/event-platform/image.png",
+      "alt": "Admin dashboard — exhibitor, sponsor, and startup registration analytics"
+    },
+    {
+      "url": "/images/event-platform/registration-analytics.png",
+      "alt": "Registration analytics — paid vs unpaid, revenue trends, and gateway breakdown"
+    },
+    {
+      "url": "/images/event-platform/event-registration.png",
+      "alt": "Public ticket registration — delegate info, organisation details, and pricing"
+    },
+    {
+      "url": "/images/event-platform/exhibitorDashboard.png",
+      "alt": "Exhibitor dashboard — booth details, passes, and action items"
+    },
+    {
+      "url": "/images/event-platform/floor-plan.png",
+      "alt": "Floor management — stall allocation, hall-wise summary, and approvals"
     }
   ],
   "overview": {
@@ -80,9 +96,5 @@
       ]
     }
   ],
-  "metrics": [
-    { "name": "Views / controllers", "value": 80, "max": 100 },
-    { "name": "Database migrations", "value": 180, "max": 200 },
-    { "name": "Templates", "value": 500, "max": 500 }
-  ]
+  "metrics": []
 }

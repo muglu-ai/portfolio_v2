@@ -1,35 +1,35 @@
 export const PROJECT_CARDS = [
   {
     href: "/projects/trucktrace",
-    src: "/TruckTrace.png",
+    src: "/images/trucktrace/2.png",
     title: "TruckTrace",
     description:
       "Production-oriented React Native / Expo app for shippers and companies — freight quotes, trip tracking, documents, invoicing, and payments in one place.",
   },
   {
     href: "/projects/semicon-india-2026",
-    src: "/SemiconIndia2026.png",
-    title: "SEMICON India 2026",
+    src: "/images/semicon-portal/image.png",
+    title: "Industry Conference Platform",
     description:
-      "End-to-end Laravel platform for a major industry conference — registration, exhibitor booths, sponsorship tiers, payments, and role-based portals for visitors, exhibitors, and ops teams.",
+      "Laravel platform for a large-scale industry conference — online registration, exhibitor workflows, payments, and admin tooling.",
   },
   {
     href: "/projects/irinn-portal",
-    src: "/IRINNPortal.png",
+    src: "/images/irinn/dashboard.png",
     title: "IRINN Portal",
     description:
       "Multi-role Laravel portal for Internet resource registration — OTP auth, KYC, APNIC Registry integration, billing/invoicing, PayU payments, and grievance ticketing.",
   },
   {
     href: "/projects/nixi-platform",
-    src: "/NIXIPlatform.png",
+    src: "/images/nixi/dashboard.png",
     title: "NIXI Platform",
     description:
       "Enterprise Laravel platform for the National Internet Exchange of India — IX member onboarding, multi-stage approvals, automated billing, PayU payments, and KYC verification.",
   },
   {
     href: "/projects/event-operations-platform",
-    src: "/EventOperationsPlatform.png",
+    src: "/images/event-platform/image.png",
     title: "Event Operations Platform",
     description:
       "Multi-event Django platform for Bengaluru Tech Summit — configurable registration, exhibitor lifecycle, unified ticketing, dual payment gateways, and admin-driven event setup at scale.",
@@ -47,13 +47,6 @@ export const PROJECT_CARDS = [
     title: "Event Registration System",
     description:
       "Scalable registration platform with integrated payments, mobile app sync, and real-time notifications.",
-  },
-  {
-    href: "/projects/exhibitor-portal",
-    src: "/ExhibitorPortal.webp",
-    title: "Exhibitor Management Portal",
-    description:
-      "User-friendly portal for exhibitors to manage profiles, invite delegates, and receive updates.",
   },
   {
     href: "/projects/b2b-portal",

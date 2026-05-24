@@ -1,24 +1,36 @@
 {
   "id": "semicon-india-2026",
-  "title": "SEMICON India 2026",
+  "title": "Industry Conference Platform",
   "projectLink": "",
   "images": [
     {
-      "url": "/SemiconIndia2026.png",
-      "alt": "SEMICON India 2026 — event registration and operations platform"
+      "url": "/images/semicon-portal/login.png",
+      "alt": "Conference portal sign-in page"
+    },
+    {
+      "url": "/images/semicon-portal/dashboard.png",
+      "alt": "Exhibitor dashboard with booth and pass management"
+    },
+    {
+      "url": "/images/semicon-portal/eshop.png",
+      "alt": "Add-on services e-shop with cart and online payments"
+    },
+    {
+      "url": "/images/semicon-portal/image.png",
+      "alt": "Admin analytics dashboard for registrations and applications"
     }
   ],
   "overview": {
-    "description": "Event registration & operations platform for a major government-backed industry conference.",
-    "details": "End-to-end Laravel application for SEMICON India 2026 — a major industry conference covering public registration, exhibitor booths, sponsorship tiers, payments, and post-login experiences for visitors, exhibitors, sponsors, liaising officers, and internal teams.\n\nThe platform unifies attendee self-service, company SPOC workflows, on-site liaison coordination, exhibitor and sponsorship commerce, and role-based admin tooling under one SEMICON-branded system with integrated payments, document exports, and email communications."
+    "description": "Event registration and operations platform for a large-scale industry conference.",
+    "details": "End-to-end Laravel application built for a major industry conference — covering public registration, exhibitor management, sponsorship, payments, and post-login experiences for attendees, exhibitors, sponsors, and internal teams.\n\nThe platform brings together self-service registration, company coordination workflows, exhibitor and sponsorship management, and role-based admin tooling with integrated payments, document exports, and email communications."
   },
   "features": [
-    "Unified attendee hub — dashboard with conference content (agenda, sessions, passes), travel and hotel forms, visa clearance, and organiser notifications",
-    "SPOC workflows — company contacts invite colleagues via links, track registration status, and manage inaugural ceremony decisions (visitor and exhibitor paths)",
-    "Company & organization data — central company list with deduplication and search across past and current records at registration time",
-    "Liaising officer workspace — assigned visitors, pass status updates, and read-only travel/accommodation summaries for on-site coordination",
-    "Exhibitor & sponsorship — delegate management, booth passes, sponsorship cart/summary, and booth credit toward title sponsorship for large stands (54+ sqm)",
-    "Admin by role — menus and tools tailored for visa, sales, visitor ops, and general administration; improved search, tables, and SEMICON branding across emails and UI"
+    "Attendee hub with conference content, travel forms, and organiser notifications",
+    "Company contact workflows to invite colleagues and track registration status",
+    "Central company directory with deduplication and search at registration time",
+    "On-site coordination workspace for assigned attendees and pass updates",
+    "Exhibitor and sponsorship management with delegate passes and booth workflows",
+    "Role-based admin panels for sales, operations, and general administration"
   ],
   "technologies": [
     {

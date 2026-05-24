@@ -16,7 +16,7 @@ const Projects = () => {
           <Link
             key={project.href}
             href={project.href}
-            className="hover:scale-105 transition-transform"
+            className="block h-full hover:scale-105 transition-transform"
           >
             <ProjectCard
               src={project.src}

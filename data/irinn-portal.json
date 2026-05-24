@@ -4,8 +4,16 @@
   "projectLink": "",
   "images": [
     {
-      "url": "/IRINNPortal.png",
-      "alt": "IRINN Portal — registration, KYC, and resource management dashboard"
+      "url": "/images/irinn/login.png",
+      "alt": "IRINN Self Help Portal login — email, PAN, membership ID, or ASN"
+    },
+    {
+      "url": "/images/irinn/dashboard.png",
+      "alt": "Applicant dashboard — profile, resources, applications, and wallet"
+    },
+    {
+      "url": "/images/irinn/whois-apnic.png",
+      "alt": "WHOIS updates — APNIC Registry object management (view, create, update)"
     }
   ],
   "overview": {

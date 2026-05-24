@@ -4,17 +4,21 @@
   "projectLink": "",
   "images": [
     {
-      "url": "/NIXIPlatform.png",
-      "alt": "NIXI Platform — IX member onboarding, billing, and admin dashboard"
+      "url": "/images/nixi/login.png",
+      "alt": "NIXI IX Self Help Portal — sign in with email or PAN"
+    },
+    {
+      "url": "/images/nixi/dashboard.png",
+      "alt": "Applicant dashboard — profile, wallet balance, and new IX application"
     }
   ],
   "overview": {
     "description": "Full-stack Laravel platform for NIXI to onboard IX members, run multi-stage application approvals, automate billing/invoicing, and process payments with KYC and grievance management.",
-    "details": "Developed an enterprise web platform for the National Internet Exchange of India (NIXI) to digitize IX membership onboarding, service provisioning, and billing. The system supports member registration with OTP and PAN verification, a multi-role approval workflow (Processor → Legal → Head → CEO → Nodal Officer → Tech/Account), PayU payment integration with wallet support, and automated monthly/membership invoicing with PDF generation.\n\nAlso includes KYC verification (GST, PAN, MCA, Udyam via IDfy), grievance ticketing with escalation, and role-based admin dashboards for operations and finance teams. Deployed on Linux with Apache, MySQL, and master–slave database replication for read scaling and resilience."
+    "details": "Developed an enterprise web platform for the National Internet Exchange of India (NIXI) to digitize IX membership onboarding, service provisioning, and billing. The system supports member registration with OTP and PAN verification, a multi-stage approval workflow, PayU payment integration with wallet support, and automated monthly/membership invoicing with PDF generation.\n\nAlso includes KYC verification (GST, PAN, MCA, Udyam via IDfy), grievance ticketing with escalation, and role-based admin dashboards for operations and finance teams. Deployed on Linux with Apache, MySQL, and master–slave database replication for read scaling and resilience."
   },
   "features": [
     "Built a Laravel 12 / PHP 8.2 web application for NIXI to manage Internet Exchange (IX) member onboarding, service lifecycle, and billing across User, Admin, and SuperAdmin portals",
-    "Implemented a multi-stage approval workflow for IX applications (Processor → Legal → Head → CEO → Nodal Officer → Tech/Account) with status history, email notifications, and role-based access control",
+    "Implemented a multi-stage approval workflow for IX applications with status history, email notifications, and role-based access control",
     "Integrated PayU payment gateway and an internal wallet system for application fees, invoice payments, and reactivation charges, with webhook logging and payment verification",
     "Designed automated billing: monthly IX service invoices, annual membership invoices, reactivation/credit notes, TDS handling, and DomPDF-based invoice/application PDFs",
     "Built KYC & identity verification flows using IDfy APIs for PAN, GST, MCA, ROC/IEC, and Udyam validation during registration and IX application submission",
